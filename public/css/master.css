@@ -1,0 +1,120 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'SansationRegular';
+    src: url('/public/font/Sansation_Regular-webfont.eot');
+    src: url('/public/font/Sansation_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/font/Sansation_Regular-webfont.woff') format('woff'),
+         url('/public/font/Sansation_Regular-webfont.ttf') format('truetype'),
+         url('/public/font/Sansation_Regular-webfont.svg#SansationRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SansationLight';
+    src: url('/public/font/Sansation_Light-webfont.eot');
+    src: url('/public/font/Sansation_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/font/Sansation_Light-webfont.woff') format('woff'),
+         url('/public/font/Sansation_Light-webfont.ttf') format('truetype'),
+         url('/public/font/Sansation_Light-webfont.svg#SansationLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SansationBold';
+    src: url('/public/font/Sansation_Bold-webfont.eot');
+    src: url('/public/font/Sansation_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/public/font/Sansation_Bold-webfont.woff') format('woff'),
+         url('/public/font/Sansation_Bold-webfont.ttf') format('truetype'),
+         url('/public/font/Sansation_Bold-webfont.svg#SansationBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* CLASSES */
+
+.dark-bg {
+  background-color: #111;
+}
+
+.blue-fg {
+  color: #204467;
+}
+
+.cream-fg {
+  color: #FCFBE3;
+}
+
+.container {
+  margin-bottom: -10px;
+}
+
+/* TAGS */
+
+html, body {
+    height: 100%;
+}
+
+body {
+  background-color: #204467;
+}
+
+header {
+  padding-top: 100px;
+  padding-bottom: -10px;
+  text-shadow: #111 0 0 20px;
+}
+
+#tagline {
+  font: 36px/46px 'SansationRegular', Arial, sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font: 100px/112px 'SansationBold', Arial, sans-serif;
+  float: right;
+  margin-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 14px;
+}
+
+li {
+  font: 24px/30px 'SansationRegular', Arial, sans-serif;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #FCFBE3;
+}
+
+a:hover {
+  color: #FCFBE3;
+  border-bottom: #FCFBE3 1px dotted;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#links {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.footer, .push {
+    height: 50px; /* .push must be the same height as .footer */
+    font: 18px/20px 'SansationRegular', Arial, sans-serif;
+}
