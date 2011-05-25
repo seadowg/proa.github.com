@@ -65,7 +65,7 @@ body {
 }
 
 header {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: -10px;
   text-shadow: #111 0 0 20px;
 }
@@ -117,4 +117,34 @@ a:hover {
 .footer, .push {
     height: 50px; /* .push must be the same height as .footer */
     font: 18px/20px 'SansationRegular', Arial, sans-serif;
+}
+
+#small_name {
+  font: 54px/60px 'SansationBold', Arial, sans-serif;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-shadow: #111 0 0 10px;
+}
+
+#title {
+  font: 36px/40px 'SansationRegular', Arial, sans-serif;
+  text-shadow: #111 0 0 10px;
+  margin-bottom: 30px;
+}
+
+.bio img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.bio .name {
+  text-align: center;
+  margin-top: 10px;
+  font: 18px/20px 'SansationRegular', Arial, sans-serif;
+}
+
+#bounding-box {
+  border-radius: 10px;
+  padding: 20px;
 }
