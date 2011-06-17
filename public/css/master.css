@@ -129,6 +129,7 @@ a:hover {
 .title {
   font: 36px/40px 'SansationRegular', Arial, sans-serif;
   text-shadow: #111 0 0 10px;
+  margin-top: -10px;
   margin-bottom: 20px;
 }
 
@@ -152,6 +153,7 @@ a:hover {
 #bounding-box {
   border-radius: 10px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 div.small {
@@ -160,7 +162,15 @@ div.small {
 }
 
 p {
-  color: #EEE;
-  font-size: 150%;
+  color: #FCFBE3;
   font: 24px 'SansationRegular', Arial, sans-serif;
+}
+
+h3 {
+  color: #FCFBE3;
+  font: 32px 'SansationRegular', Arial, sans-serif;
+}
+
+.authors img {
+  margin-top: 0.5em;
 }
