@@ -82,11 +82,11 @@ header h1 {
   margin-right: 20px;
 }
 
-ul {
+.homepage ul {
   list-style-type: none;
 }
 
-li {
+.homepage li {
   font: 24px/30px 'SansationRegular', Arial, sans-serif;
   padding-bottom: 10px;
 }
@@ -153,6 +153,12 @@ a:hover {
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
+  color: #FCFBE3;
+  font-family: 'SansationRegular', Arial, sans-serif;
+}
+
+#bounding-box ul {
+  font-size: 18px;
 }
 
 div.small {
@@ -162,7 +168,7 @@ div.small {
 
 p {
   color: #FCFBE3;
-  font: 24px 'SansationRegular', Arial, sans-serif;
+  font: 18px 'SansationRegular', Arial, sans-serif;
 }
 
 h3 {
@@ -170,6 +176,6 @@ h3 {
   font: 32px 'SansationRegular', Arial, sans-serif;
 }
 
+
 .authors img {
-  margin-top: 0.5em;
 }
