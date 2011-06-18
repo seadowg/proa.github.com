@@ -171,6 +171,7 @@ div.small {
 p {
   color: #FCFBE3;
   font: 18px 'SansationRegular', Arial, sans-serif;
+  line-height: 24px;
 }
 
 h3 {
